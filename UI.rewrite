@@ -392,7 +392,7 @@ local ImageLabel = Instance.new("ImageLabel")
 
 --Properties:
 
-ImageLabel.Parent = bg.Frame
+ImageLabel.Parent = mainuipop.bg.Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
