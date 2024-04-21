@@ -20,7 +20,7 @@ if not isfile("Patrick.Pub") then
     makefolder("Patrick.Pub")
  end
  
- local menu = game:GetObjects("rbxassetid://17228638827")[1] 
+ local menu = game:GetObjects("rbxassetid://17247408429")[1] 
  local tabholder = menu.bg.bg.bg.bg.bg.bg.main.group;
  local tabviewer = menu.bg.bg.bg.bg.bg.bg.tabbuttons;
  for _, obj in pairs(menu:GetDescendants()) do
@@ -386,20 +386,6 @@ TextLabel.TextSize = 9
 
 
 
-
-
-local ImageLabel = Instance.new("ImageLabel")
-
---Properties:
-
-ImageLabel.Parent = mainuipop.bg.Frame
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BackgroundTransparency = 1.000
-ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(-0.0156046813, 0, -0.462375641, 0)
-ImageLabel.Size = UDim2.new(0, 28, 0, 25)
-ImageLabel.Image = "rbxassetid://17247287330"
 
     for _, obj in pairs(menu:GetDescendants()) do
         if obj.Name:lower():find('name_esp') then
